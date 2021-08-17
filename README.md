@@ -1,9 +1,8 @@
 # Api_Gateway
 
-This application was generated using JHipster 7.0.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.0.1](https://www.jhipster.tech/documentation-archive/v7.0.1).
 
-This is a "gateway" application intended to be part of a microservice architecture, please refer to the [Doing microservices with JHipster][] page of the documentation for more information.
-This application is configured for Service Discovery and Configuration with Consul. On launch, it will refuse to start if it is not able to connect to Consul at [http://localhost:8500](http://localhost:8500). For more information, read our documentation on [Service Discovery and Configuration with Consul][].
+This is a "gateway" application intended to be part of a microservice architecture.
+This application is configured for Service Discovery and Configuration with Consul. On launch, it will refuse to start if it is not able to connect to Consul at [http://localhost:8500](http://localhost:8500).
 
 ## Development
 
@@ -12,8 +11,6 @@ To start your application in the dev profile, run:
 ```
 ./gradlew
 ```
-
-For further instructions on how to develop with JHipster, have a look at [Using JHipster in development][].
 
 ## Building for production
 
@@ -31,8 +28,6 @@ To ensure everything worked, run:
 java -jar build/libs/*.jar
 ```
 
-Refer to [Using JHipster in production][] for more details.
-
 ### Packaging as war
 
 To package your application as a war in order to deploy it to an application server, run:
@@ -48,8 +43,6 @@ To launch your application's tests, run:
 ```
 ./gradlew test integrationTest jacocoTestReport
 ```
-
-For more information, refer to the [Running tests page][].
 
 ### Code quality
 
